@@ -14,25 +14,25 @@ const slides: CarouselSlide[] = [
   {
     id: 1,
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-    title: "NEW COLLECTION",
-    subtitle: "Elevate Your Style Game",
+    title: "SNITCH NEW DROP",
+    subtitle: "Redefine Your Street Style",
     buttonText: "Shop Now",
     buttonVariant: "default"
   },
   {
     id: 2,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-    title: "SUMMER ESSENTIALS",
-    subtitle: "Fresh Looks for Every Occasion",
-    buttonText: "Explore Collection",
+    title: "WORTH THE WAIT",
+    subtitle: "Exclusive Preview Collection",
+    buttonText: "Preview Now",
     buttonVariant: "outline"
   },
   {
     id: 3,
     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-    title: "SALE UP TO 50%",
-    subtitle: "Limited Time Offer",
-    buttonText: "Shop Sale",
+    title: "TRENDING FITS",
+    subtitle: "What Everyone's Wearing",
+    buttonText: "Explore Trends",
     buttonVariant: "default"
   }
 ];
@@ -99,8 +99,8 @@ export default function HeroCarousel() {
                   variant={slide.buttonVariant}
                   className={`px-8 py-6 text-lg font-semibold transition-all duration-300 hover-scale ${
                     slide.buttonVariant === "default" 
-                      ? "bg-brand-orange hover:bg-brand-orange/90 text-white border-0" 
-                      : "bg-white text-black hover:bg-white/90"
+                      ? "bg-snitch-black hover:bg-snitch-gray text-white border-0" 
+                      : "bg-white text-black hover:bg-gray-100 border-2 border-white"
                   }`}
                 >
                   {slide.buttonText}

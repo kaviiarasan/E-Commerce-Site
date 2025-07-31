@@ -1,12 +1,28 @@
-# Replit.md - Full-Stack Web Application Guide
+# Replit.md - SNITCH E-Commerce Mobile App
 
 ## Overview
 
-This is a full-stack web application built with React (frontend) and Express.js (backend), featuring a modern UI component library (shadcn/ui), PostgreSQL database with Drizzle ORM, and TypeScript throughout. The application appears to be set up for an e-commerce or fashion website based on the hero carousel component and styling.
+This is a comprehensive e-commerce mobile application for the SNITCH men's fashion brand, built as a responsive web app using React, TypeScript, and Express.js. The app features a complete e-commerce experience including product catalogs, shopping cart, user authentication, order management, reviews, and secure payment integration. The design follows SNITCH branding with black, white, and bold accent colors in a mobile-first approach while maintaining the existing hero carousel component.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Recent Changes (July 31, 2025)
+
+- ✅ Comprehensive database schema implemented with users, products, categories, orders, cart, reviews, addresses, and notifications
+- ✅ Complete backend API routes for all e-commerce operations including product management, cart operations, and order processing  
+- ✅ Storage layer developed with full CRUD operations for all entities using in-memory storage
+- ✅ Hero carousel updated with SNITCH branding and modern styling
+- ✅ Navigation component with mobile-first design, search, wishlist, and cart functionality
+- ✅ Product grid component with advanced features like hover effects, wishlist, and quick add to cart
+- ✅ Deal banner component with countdown timers and promotional styling
+- ✅ Comprehensive home page showcasing categories, featured products, trending items, and brand features
+- ✅ Shopping cart page with quantity controls, price calculations, and checkout flow
+- ✅ Product detail page with image galleries, size/color selection, reviews, and related products
+- ✅ Modern CSS foundation with SNITCH brand colors, animations, and responsive design
+- ✅ Dark mode support with proper theme switching
+- ✅ Query client updated to handle complex API parameters correctly
 
 ## System Architecture
 
