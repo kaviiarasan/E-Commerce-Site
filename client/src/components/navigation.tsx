@@ -89,7 +89,7 @@ export default function Navigation({ isDarkMode, onToggleDarkMode }: NavigationP
           <Link href="/">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold snitch-black dark:snitch-white tracking-tight">
-                SNITCH
+                YOUR BRAND
               </h1>
             </div>
           </Link>

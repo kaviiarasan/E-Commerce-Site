@@ -14,7 +14,7 @@ const slides: CarouselSlide[] = [
   {
     id: 1,
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-    title: "SNITCH NEW DROP",
+    title: "YOUR BRAND NEW DROP",
     subtitle: "Redefine Your Street Style",
     buttonText: "Shop Now",
     buttonVariant: "default"
